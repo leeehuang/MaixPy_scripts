@@ -1,5 +1,5 @@
 try:
-    import gc, lcd, image
+    import gc, lcd, image, sys
     gc.collect()
     lcd.init()
     loading = image.Image(size=(lcd.width(), lcd.height()))
